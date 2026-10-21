@@ -1,3 +1,5 @@
+import kotlin.text.iterator
+
 fun romanToInt(s: String): Int {
   val romanNumeralsToInt = mapOf<Char, Int>(
     'I' to 1,

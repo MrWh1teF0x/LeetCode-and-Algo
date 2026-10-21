@@ -1,3 +1,5 @@
+import kotlin.text.iterator
+
 fun lengthOfLastWord(s: String): Int {
   var sizeLastWord = 0
 

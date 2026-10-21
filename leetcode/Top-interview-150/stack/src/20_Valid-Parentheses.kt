@@ -1,4 +1,5 @@
 import java.util.*
+import kotlin.text.iterator
 
 fun isValid(s: String): Boolean {
   val stack = Stack<Char>()
